@@ -1,6 +1,6 @@
 import shutil
 import os
-
+from fastapi import UploadFile
 def save_uploaded_file(file: UploadFile, upload_folder: str = "uploads"):
     """
     Save an uploaded file to the specified folder.
